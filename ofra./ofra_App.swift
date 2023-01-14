@@ -11,7 +11,7 @@ import SwiftUI
 struct ofra_App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            picker()
         }
     }
 }

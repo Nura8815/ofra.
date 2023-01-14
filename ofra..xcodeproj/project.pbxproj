@@ -8,18 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		CB019A932966ABEB00FAEDA7 /* ofra_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB019A922966ABEB00FAEDA7 /* ofra_App.swift */; };
-		CB019A952966ABEB00FAEDA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB019A942966ABEB00FAEDA7 /* ContentView.swift */; };
 		CB019A972966ABEC00FAEDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB019A962966ABEC00FAEDA7 /* Assets.xcassets */; };
 		CB019A9B2966ABEC00FAEDA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB019A9A2966ABEC00FAEDA7 /* Preview Assets.xcassets */; };
+		CB019AA22966BCB800FAEDA7 /* picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB019AA12966BCB800FAEDA7 /* picker.swift */; };
+		CB25120C296C07DD00E42197 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB25120E296C07DD00E42197 /* Localizable.strings */; };
+		CB70A404296E949C00460BAB /* savings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70A403296E949C00460BAB /* savings.swift */; };
+		CB70A40629715BD200460BAB /* sheetgoals.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70A40529715BD200460BAB /* sheetgoals.swift */; };
+		CB70A408297160E700460BAB /* UploadAnImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70A407297160E700460BAB /* UploadAnImage.swift */; };
+		CB70A40A2971616000460BAB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70A4092971616000460BAB /* ImagePicker.swift */; };
+		CB70A40C297161D700460BAB /* sheetsave.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70A40B297161D700460BAB /* sheetsave.swift */; };
+		CB70A40E297162ED00460BAB /* rate2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70A40D297162ED00460BAB /* rate2.swift */; };
+		CB70A4102971B67C00460BAB /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70A40F2971B67C00460BAB /* home.swift */; };
+		CBB6DFC1296BFE5400334841 /* gols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB6DFC0296BFE5400334841 /* gols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CB019A8F2966ABEB00FAEDA7 /* ofra..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofra..app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB019A922966ABEB00FAEDA7 /* ofra_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ofra_App.swift; sourceTree = "<group>"; };
-		CB019A942966ABEB00FAEDA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB019A962966ABEC00FAEDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB019A982966ABEC00FAEDA7 /* ofra_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ofra_.entitlements; sourceTree = "<group>"; };
 		CB019A9A2966ABEC00FAEDA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB019AA12966BCB800FAEDA7 /* picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picker.swift; sourceTree = "<group>"; };
+		CB25120D296C07DD00E42197 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB25120F296C07E000E42197 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB70A403296E949C00460BAB /* savings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savings.swift; sourceTree = "<group>"; };
+		CB70A40529715BD200460BAB /* sheetgoals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sheetgoals.swift; sourceTree = "<group>"; };
+		CB70A407297160E700460BAB /* UploadAnImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadAnImage.swift; sourceTree = "<group>"; };
+		CB70A4092971616000460BAB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		CB70A40B297161D700460BAB /* sheetsave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sheetsave.swift; sourceTree = "<group>"; };
+		CB70A40D297162ED00460BAB /* rate2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rate2.swift; sourceTree = "<group>"; };
+		CB70A40F2971B67C00460BAB /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		CBB6DFC0296BFE5400334841 /* gols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +55,7 @@
 		CB019A862966ABEB00FAEDA7 = {
 			isa = PBXGroup;
 			children = (
+				CB25120E296C07DD00E42197 /* Localizable.strings */,
 				CB019A912966ABEB00FAEDA7 /* ofra. */,
 				CB019A902966ABEB00FAEDA7 /* Products */,
 			);
@@ -53,7 +73,15 @@
 			isa = PBXGroup;
 			children = (
 				CB019A922966ABEB00FAEDA7 /* ofra_App.swift */,
-				CB019A942966ABEB00FAEDA7 /* ContentView.swift */,
+				CB019AA12966BCB800FAEDA7 /* picker.swift */,
+				CB70A40F2971B67C00460BAB /* home.swift */,
+				CBB6DFC0296BFE5400334841 /* gols.swift */,
+				CB70A403296E949C00460BAB /* savings.swift */,
+				CB70A40529715BD200460BAB /* sheetgoals.swift */,
+				CB70A40B297161D700460BAB /* sheetsave.swift */,
+				CB70A40D297162ED00460BAB /* rate2.swift */,
+				CB70A407297160E700460BAB /* UploadAnImage.swift */,
+				CB70A4092971616000460BAB /* ImagePicker.swift */,
 				CB019A962966ABEC00FAEDA7 /* Assets.xcassets */,
 				CB019A982966ABEC00FAEDA7 /* ofra_.entitlements */,
 				CB019A992966ABEC00FAEDA7 /* Preview Content */,
@@ -111,6 +139,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = CB019A862966ABEB00FAEDA7;
 			productRefGroup = CB019A902966ABEB00FAEDA7 /* Products */;
@@ -128,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB019A9B2966ABEC00FAEDA7 /* Preview Assets.xcassets in Resources */,
+				CB25120C296C07DD00E42197 /* Localizable.strings in Resources */,
 				CB019A972966ABEC00FAEDA7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,12 +169,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB019A952966ABEB00FAEDA7 /* ContentView.swift in Sources */,
 				CB019A932966ABEB00FAEDA7 /* ofra_App.swift in Sources */,
+				CBB6DFC1296BFE5400334841 /* gols.swift in Sources */,
+				CB70A40C297161D700460BAB /* sheetsave.swift in Sources */,
+				CB70A40629715BD200460BAB /* sheetgoals.swift in Sources */,
+				CB70A40E297162ED00460BAB /* rate2.swift in Sources */,
+				CB70A40A2971616000460BAB /* ImagePicker.swift in Sources */,
+				CB70A408297160E700460BAB /* UploadAnImage.swift in Sources */,
+				CB019AA22966BCB800FAEDA7 /* picker.swift in Sources */,
+				CB70A4102971B67C00460BAB /* home.swift in Sources */,
+				CB70A404296E949C00460BAB /* savings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB25120E296C07DD00E42197 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB25120D296C07DD00E42197 /* en */,
+				CB25120F296C07E000E42197 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CB019A9C2966ABEC00FAEDA7 /* Debug */ = {
